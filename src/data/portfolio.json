@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "title": "Tharindu Kumesh | Software Engineer",
+    "description": "Tharindu Kumesh — Full Stack Software Engineer specializing in .NET, React, cloud-native systems and microservices."
+  },
+  "profile": {
+    "firstName": "Tharindu",
+    "lastName": "Kumesh",
+    "initials": "TK",
+    "role": "Full Stack Software Engineer",
+    "location": "Panadura, Sri Lanka",
+    "email": "tharindukumesh09@gmail.com",
+    "image": "profile.jpeg",
+    "imageAlt": "Portrait of Tharindu Kumesh",
+    "socials": [
+      {
+        "label": "GitHub",
+        "icon": "github",
+        "href": "https://github.com/kumesh1997"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "linkedin",
+        "href": "https://www.linkedin.com/in/tharindukumesh"
+      },
+      {
+        "label": "Email",
+        "icon": "mail",
+        "href": "mailto:tharindukumesh09@gmail.com"
+      }
+    ]
+  },
+  "navigation": {
+    "brandSuffix": "/ portfolio",
+    "toggleLabel": "Toggle navigation",
+    "contactLabel": "Let's talk",
+    "items": [
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Experience",
+        "href": "#experience"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Education",
+        "href": "#education"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "availability": "OPEN TO CONNECTING",
+    "kicker": "HELLO WORLD, I'M",
+    "description": [
+      {
+        "text": "I engineer "
+      },
+      {
+        "text": "scalable digital experiences",
+        "emphasis": true
+      },
+      {
+        "text": " — from elegant React interfaces to resilient .NET microservices and cloud-native systems."
+      }
+    ],
+    "primaryAction": {
+      "label": "Explore my work",
+      "href": "#projects"
+    },
+    "secondaryAction": {
+      "label": "Get in touch"
+    },
+    "scrollLabel": "SCROLL TO EXPLORE",
+    "tagline": "CRAFTING SOFTWARE THAT SCALES",
+    "portraitTags": [
+      {
+        "icon": "code",
+        "title": "Full Stack",
+        "subtitle": "Engineering"
+      },
+      {
+        "icon": "cloud",
+        "title": "Cloud Native",
+        "subtitle": "Architecture"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "01 / ABOUT ME",
+    "title": "Engineering with purpose.",
+    "accent": [
+      "Code is the craft.",
+      "Impact is the goal."
+    ],
+    "paragraphs": [
+      [
+        {
+          "text": "I'm a software engineer with "
+        },
+        {
+          "text": "3.5+ years of experience",
+          "emphasis": true
+        },
+        {
+          "text": " designing and delivering backend and frontend systems for enterprise and government applications."
+        }
+      ],
+      [
+        {
+          "text": "My work spans "
+        },
+        {
+          "text": ".NET, React, Node.js, cloud platforms, and microservices",
+          "emphasis": true
+        },
+        {
+          "text": ". I enjoy taking ownership from architecture to delivery, solving complex problems, and building software that is reliable, maintainable, and a pleasure to use."
+        }
+      ],
+      [
+        {
+          "text": "I'm also interested in the intersection of "
+        },
+        {
+          "text": "AI, prompt engineering, and software engineering research.",
+          "emphasis": true
+        }
+      ]
+    ],
+    "highlights": [
+      {
+        "value": "3.5+",
+        "label": "Years of experience"
+      },
+      {
+        "value": "04",
+        "label": "Companies worked with"
+      },
+      {
+        "value": "02",
+        "label": "Cloud ecosystems"
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "02 / CAREER JOURNEY",
+    "title": "Where I've made an impact.",
+    "description": "A journey of building, learning, and shipping software across teams and technologies.",
+    "items": [
+      {
+        "role": "Full Stack Software Engineer",
+        "company": "CODICE Tech",
+        "location": "Washington, DC, USA",
+        "period": "Nov 2024 — Present",
+        "summary": "Building scalable government permitting platforms with modern full-stack and cloud-native architecture.",
+        "bullets": [
+          "Designed .NET microservices and Node.js BFF architecture",
+          "Developed Azure SignalR-powered notification functionality",
+          "Built reusable React and TypeScript components using atomic design",
+          "Optimized EF Core queries and contributed to CI/CD automation"
+        ],
+        "tags": [
+          ".NET",
+          "React",
+          "TypeScript",
+          "Azure",
+          "Microservices"
+        ]
+      },
+      {
+        "role": "Associate Software Engineer — Backend",
+        "company": "OREL IT",
+        "location": "Colombo, Sri Lanka",
+        "period": "Jan 2024 — Oct 2024",
+        "summary": "Developed secure, maintainable backend services for a property management platform.",
+        "bullets": [
+          "Built ASP.NET Core and PostgreSQL services",
+          "Implemented JWT authentication and API security",
+          "Applied Clean Architecture, CQRS and Vertical Slice patterns",
+          "Containerized services using Docker and Kubernetes"
+        ],
+        "tags": [
+          "ASP.NET Core",
+          "PostgreSQL",
+          "CQRS",
+          "Docker"
+        ]
+      },
+      {
+        "role": "Junior Software Engineer — .NET",
+        "company": "SLT Mobitel",
+        "location": "Colombo, Sri Lanka",
+        "period": "Jun 2023 — Dec 2023",
+        "summary": "Developed AWS serverless backend services for a community application.",
+        "bullets": [
+          "Built cloud-native .NET 6 services with AWS Lambda",
+          "Integrated DynamoDB and Amazon S3",
+          "Implemented AWS Cognito and OAuth 2.0 authentication"
+        ],
+        "tags": [
+          ".NET 6",
+          "AWS Lambda",
+          "DynamoDB",
+          "Cognito"
+        ]
+      },
+      {
+        "role": "Intern Software Engineer",
+        "company": "JIDEA Solutions",
+        "location": "Auckland, New Zealand",
+        "period": "Sep 2022 — Mar 2023",
+        "summary": "Delivered Express.js backend APIs and production performance improvements.",
+        "bullets": [
+          "Implemented backend APIs with maintainable business logic",
+          "Optimized database queries and resolved production issues",
+          "Collaborated with frontend and QA teams"
+        ],
+        "tags": [
+          "Node.js",
+          "Express.js",
+          "APIs"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "03 / TECH STACK",
+    "title": "Tools of the trade.",
+    "description": "The technologies and patterns I use to turn complex requirements into dependable software.",
+    "items": [
+      {
+        "icon": "code",
+        "title": "Backend Engineering",
+        "items": [
+          "C# / .NET",
+          "ASP.NET Core",
+          "Node.js / Express",
+          "Spring Boot",
+          "EF Core / LINQ",
+          "REST APIs",
+          "CQRS / Clean Architecture"
+        ]
+      },
+      {
+        "icon": "layers",
+        "title": "Frontend Development",
+        "items": [
+          "React",
+          "TypeScript",
+          "Redux",
+          "JavaScript",
+          "SCSS / Bootstrap",
+          "Tailwind CSS",
+          "Reusable UI Components"
+        ]
+      },
+      {
+        "icon": "cloud",
+        "title": "Cloud & DevOps",
+        "items": [
+          "Microsoft Azure",
+          "AWS Lambda / S3",
+          "Azure Container Apps",
+          "Docker / Kubernetes",
+          "CI/CD Pipelines",
+          "Azure SignalR",
+          "Git / GitHub"
+        ]
+      },
+      {
+        "icon": "database",
+        "title": "Data & Architecture",
+        "items": [
+          "SQL Server",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "DynamoDB",
+          "Microservices",
+          "BFF Architecture"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "04 / SELECTED WORK",
+    "title": "Things I've built.",
+    "description": "A selection of professional engineering work and academic research.",
+    "linkLabel": "Explore GitHub",
+    "featuredLabel": "FEATURED",
+    "filterLabel": "Filter projects",
+    "filters": [
+      {
+        "id": "all",
+        "label": "All work"
+      },
+      {
+        "id": "engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "research",
+        "label": "Research"
+      }
+    ],
+    "items": [
+      {
+        "number": "01",
+        "label": "ENTERPRISE · GOVERNMENT",
+        "title": "Government Permitting Platform",
+        "desc": "Scalable full-stack features for a Washington, DC government permitting system, including microservices, notifications and reusable frontend architecture.",
+        "tags": [
+          ".NET",
+          "React",
+          "Azure",
+          "Node.js"
+        ],
+        "icon": "layers",
+        "category": "engineering"
+      },
+      {
+        "number": "02",
+        "label": "BACKEND · CLOUD",
+        "title": "Property Management Services",
+        "desc": "Secure backend services using clean architectural patterns, JWT authentication, PostgreSQL, and containerized deployments.",
+        "tags": [
+          "ASP.NET Core",
+          "PostgreSQL",
+          "Docker",
+          "CQRS"
+        ],
+        "icon": "database",
+        "category": "engineering"
+      },
+      {
+        "number": "03",
+        "label": "RESEARCH · GENERATIVE AI",
+        "title": "AI-Powered Software Size Estimation",
+        "desc": "Research exploring prompt engineering and ChatGPT for estimating the size of component-based software systems.",
+        "tags": [
+          "LLMs",
+          "Prompt Engineering",
+          "Software Estimation"
+        ],
+        "icon": "cpu",
+        "category": "research"
+      }
+    ],
+    "note": "Professional project descriptions are based on CV experience; source code and live demos may be private."
+  },
+  "education": {
+    "eyebrow": "05 / BEYOND THE CODE",
+    "title": "Always learning.",
+    "degree": {
+      "label": "EDUCATION",
+      "title": "B.Sc. (Hons.) in Management and Information Technology",
+      "description": "University of Kelaniya, Sri Lanka",
+      "period": "2020 — 2024"
+    },
+    "research": {
+      "label": "RESEARCH",
+      "title": "Transforming software size estimation with prompt engineering",
+      "description": "A ChatGPT-based framework for component-based systems.",
+      "tags": [
+        "Generative AI",
+        "LLMs",
+        "Prompt Engineering"
+      ]
+    },
+    "certifications": {
+      "label": "CERTIFICATIONS & COURSES",
+      "items": [
+        "Huawei Certified Cloud Developer — Tech Essentials (2024)",
+        "AWS Cloud Practitioner Essentials — edX (2022)",
+        "AWS Introduction to Kubernetes — edX (2023)",
+        "Getting Started with Cloud Security — edX (2020)",
+        "Advanced Java Programming — Sabaragamuwa University (2020)",
+        "Fundamentals of Digital Marketing — Google (2020)"
+      ]
+    }
+  },
+  "contact": {
+    "overline": "HAVE SOMETHING IN MIND?",
+    "title": [
+      "Let's build something",
+      "remarkable together."
+    ],
+    "description": "Interested in collaborating, discussing an opportunity, or simply connecting? My inbox is open.",
+    "actionLabel": "Say hello"
+  },
+  "footer": {
+    "credit": "Crafted with React & TypeScript."
+  }
+}
