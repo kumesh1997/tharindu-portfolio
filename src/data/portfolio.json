@@ -152,6 +152,10 @@
       {
         "value": "02",
         "label": "Cloud ecosystems"
+      },
+      {
+        "value": "03",
+        "label": "Countries worked in"
       }
     ]
   },
@@ -177,7 +181,10 @@
           "React",
           "TypeScript",
           "Azure",
-          "Microservices"
+          "Microservices",
+          "Event-Driven Architecture",
+          "Cache Optimization",
+          "SQL"
         ]
       },
       {
@@ -196,7 +203,8 @@
           "ASP.NET Core",
           "PostgreSQL",
           "CQRS",
-          "Docker"
+          "Docker",
+          "RabbitMQ"
         ]
       },
       {
@@ -214,7 +222,9 @@
           ".NET 6",
           "AWS Lambda",
           "DynamoDB",
-          "Cognito"
+          "Cognito",
+          "API Gateway",
+          "MQTT Messaging"
         ]
       },
       {
@@ -231,7 +241,9 @@
         "tags": [
           "Node.js",
           "Express.js",
-          "APIs"
+          "APIs",
+          "MongoDB",
+          "React Native"
         ]
       }
     ]
@@ -245,13 +257,22 @@
         "icon": "code",
         "title": "Backend Engineering",
         "items": [
-          "C# / .NET",
-          "ASP.NET Core",
+          "C# / .NET (8 & 10)",
           "Node.js / Express",
           "Spring Boot",
+          "Azure Entra ID",
+          "Dependency Injection",
+          "Unit Testing / NUnit / Jest",
+          "Middleware / Custom Attributes",
+          "Interceptors",
+          "Audit Logging",
+          "Swagger / OpenAPI",
           "EF Core / LINQ",
+          "EF Core Change Tracking",
           "REST APIs",
-          "CQRS / Clean Architecture"
+          "Redis Caching",
+          "CQRS / Clean Architecture",
+          "RabbitMQ / MQTT Messaging"
         ]
       },
       {
@@ -260,18 +281,31 @@
         "items": [
           "React",
           "TypeScript",
+          "Vite",
+          "Custom Hooks",
+          "React Query",
+          "MSAL",
           "Redux",
           "JavaScript",
           "SCSS / Bootstrap",
           "Tailwind CSS",
-          "Reusable UI Components"
+          "Reusable UI Components",
+          "MUI",
+          "Atomic Design",
+          "Responsive Design"
         ]
       },
       {
         "icon": "cloud",
         "title": "Cloud & DevOps",
         "items": [
-          "Microsoft Azure",
+          "Microsoft Entra ID / Azure AD",
+          "GraphQL Client",
+          "Azure SignalR",
+          "Key Vault / Secrets Management",
+          "Azure Container Apps",
+          "Azure App Configuration",
+          "Azure Artifacts / Nuget Packages",
           "AWS Lambda / S3",
           "Azure Container Apps",
           "Docker / Kubernetes",
@@ -284,13 +318,13 @@
         "icon": "database",
         "title": "Data & Architecture",
         "items": [
-          "SQL Server",
+          "Azure SQL Server",
           "PostgreSQL",
           "MySQL",
           "MongoDB",
           "DynamoDB",
-          "Microservices",
-          "BFF Architecture"
+          "SQL Query Optimization",
+          "DB First Migration"
         ]
       }
     ]
@@ -319,7 +353,22 @@
     "items": [
       {
         "number": "01",
-        "label": "ENTERPRISE · GOVERNMENT",
+        "label": "GOVERNMENT · YOUTH PROGRAMS",
+        "title": "Youth Program Management System",
+        "desc": "Youth program management system for DOES, a Washington DC government agency including microservices, notifications and reusable frontend architecture.",
+        "tags": [
+          ".NET",
+          "React",
+          "Azure",
+          "Node.js",
+          "MS Entra ID"
+        ],
+        "icon": "hammer",
+        "category": "engineering"
+      },
+      {
+        "number": "02",
+        "label": "GOVERNMENT · PERMITTING",
         "title": "Government Permitting Platform",
         "desc": "Scalable full-stack features for a Washington, DC government permitting system, including microservices, notifications and reusable frontend architecture.",
         "tags": [
@@ -332,7 +381,7 @@
         "category": "engineering"
       },
       {
-        "number": "02",
+        "number": "03",
         "label": "BACKEND · CLOUD",
         "title": "Property Management Services",
         "desc": "Secure backend services using clean architectural patterns, JWT authentication, PostgreSQL, and containerized deployments.",
@@ -346,12 +395,13 @@
         "category": "engineering"
       },
       {
-        "number": "03",
+        "number": "04",
         "label": "RESEARCH · GENERATIVE AI",
         "title": "AI-Powered Software Size Estimation",
         "desc": "Research exploring prompt engineering and ChatGPT for estimating the size of component-based software systems.",
         "tags": [
           "LLMs",
+          "ChatGPT",
           "Prompt Engineering",
           "Software Estimation"
         ],

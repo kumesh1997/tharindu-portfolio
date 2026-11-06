@@ -12,7 +12,7 @@ export default function Header({ profile, navigation }: Pick<Portfolio, 'profile
     </NavbarToggler>
     <Collapse id="main-navigation" isOpen={open} navbar>
       <Nav className="ms-auto align-items-lg-center" navbar>
-        {navigation.items.map(item => <NavItem key={item.href}><NavLink href={item.href} onClick={() => setOpen(false)}>{item.label}</NavLink></NavItem>)}
+        {navigation.items.map(item => <NavItem key={item.href}><NavLink className="fs-6" href={item.href} onClick={() => setOpen(false)}>{item.label}</NavLink></NavItem>)}
         <NavItem><a className="nav-contact" href={`mailto:${profile.email}`}>{navigation.contactLabel}<Icon name="arrowUpRight" size={15} /></a></NavItem>
       </Nav>
     </Collapse>
