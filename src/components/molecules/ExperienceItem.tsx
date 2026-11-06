@@ -3,14 +3,22 @@ import type { Experience } from '../../data';
 import Icon from '../atoms/Icon';
 import TagList from './TagList';
 
+const countryCodes: Record<string, string> = {
+  USA: 'us',
+  'Sri Lanka': 'lk',
+  'New Zealand': 'nz',
+};
+
 export default function ExperienceItem({ job, index }: { job: Experience; index: number }) {
+  const country = job.location.split(',').pop()?.trim() ?? '';
+
   return <article className="timeline-item">
     <div className="timeline-marker" aria-hidden="true"><span /></div>
     <Row className="gy-3">
       <Col md="4">
         <div className="job-index">{String(index + 1).padStart(2, '0')} / {job.period}</div>
         <h3 className="job-company">{job.company}</h3>
-        <span className="job-location"><Icon name="mapPin" size={13} />{job.location}</span>
+        <span className="job-location"><Icon name="mapPin" size={13} />{job.location}{countryCodes[country] && <img className="country-flag" src={`https://flagcdn.com/w40/${countryCodes[country]}.png`} alt={`${country} flag`} />}</span>
       </Col>
       <Col md="8">
         <div className="job-role">{job.role}</div>

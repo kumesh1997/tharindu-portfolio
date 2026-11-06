@@ -6,3 +6,4 @@ a:focus-visible,button:focus-visible{outline:2px solid #a5b4ff;outline-offset:5p
 .contact-inner>.btn-primary-custom{padding:16px 30px}
 @media(max-width:575px){.portrait-ring{width:315px;height:315px}.floating-tag{padding:10px 12px;gap:8px}.floating-tag-top{top:25px}.floating-tag-bottom{bottom:25px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+.country-flag{display:block;width:22px;height:auto;flex:0 0 22px}
